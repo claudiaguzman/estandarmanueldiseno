@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title >MANUEL</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/colores.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/arreglos.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <ul id="dropdown1" class="dropdown-content">
+    <li><a href="#!">one</a></li>
+    <li><a href="#!" class="disabled">two</a></li>
+    <li class="divider"></li>
+    <li><a href="#!">three</a></li>
+  </ul> 
+      <nav class="barraSuperior sinSombra">
+      <div class="nav-wrapper container">
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a class="azul-oscuro" href="#"><i class="fa fa-user fa-lg fa-pull-left"></i> Usuario</a></li>
+          <li><a class="azul-oscuro" href="#"><i class="fa fa-power-off fa-2x fa-pull-left"></i> Salir</a></li>
+        </ul>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="fa fa-bars fa-fw azul-oscuro"></i></a>
+        <ul id="nav-mobile" class="left hide-on-med-and-down">
+        </ul>
+      <ul class="side-nav" id="mobile-demo">
+          <li><a href="#">Usuario</a></li>
+          <div class="divider"></div>
+          <li><a href="#">Link 1</a></li>
+          <li><a href="#">Link 2</a></li>
+          <li>
+          <li class="no-padding">
+          <ul class="collapsible" data-collapsible="accordion">
+            <li>
+              <a class="collapsible-header">Dropdown</i></a>
+              <div class="collapsible-body">
+                <ul>
+                  <li><a href="#!">one</a></li>
+                  <li><a href="#!">two</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#!">three</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          </li>
+          <li><a href="#">Salir</a></li>
+        </ul>
+        <ul id="nav-mobile" class="left">
+          <li><img src="imagenes/logom.gif"></li>
+        </ul>
+        <ul id="nav-mobile" class="left hide-on-med-and-down">
+          <li><a class="azul-oscuro" href="#">Link 1</a></li>
+          <li><a class="azul-oscuro" href="#">Link 2</a></li>
+          <li><a class="dropdown-button azul-oscuro" href="#!" data-activates="dropdown1">Dropdown</a></li>
+        </ul>
+      </div>
+    </nav>
+</head>
+<body>
+<!-- Aqui inicia contenido -->
+<div class="container">
+<h4 class="orange-text">Sección</h4></div>
+<div class="contain blanco wrapper z-depth-2">
+  <div class="container">
+      <div class="row">
+      <div class="col s12">
+        <ul class="tabs">
+          <li class="tab col s3"><a href="#test1">Subsección 1</a></li>
+          <li class="tab col s3"><a class="active" href="#test2">Subsección 2</a></li>
+          <li class="tab col s3 disabled"><a href="#test3">Subsección 3</a></li>
+          <li class="tab col s3"><a href="#test4">Subsección 4</a></li>
+        </ul>
+      </div>
+      <div id="test1" class="col s12"><h5 class="azul-oscuro">Subsección 1</h5> <p align="justify" class="azul-oscuro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum euismod placerat. Nunc et mauris sollicitudin risus dapibus accumsan. Proin convallis facilisis imperdiet. Nam sit amet nisi libero. Aliquam placerat vitae felis.</p></div>
+      <div id="test2" class="col s12">
+      <h5 class="azul-oscuro">Estándar de diseño</h5>
+      <p align="justify" class="azul-oscuro"><strong>Estándar de iconos</strong><br>
+Se decidió utilizar los iconos vectoriales de <a href="http://fortawesome.github.io/Font-Awesome/">Awesome Fonts</a>, ya que estos tienen la capacidad de mantener su calidad al cambiar de tamaño.<br><strong>Paleta de colores</strong><br>
+<font color="#333C4E">#333C4E</font><br>
+<font color="#1BBE9E">#1BBE9E</font><br>
+<font color="#CADDCF">#CADDCF</font><br>
+<font color="#F9F9FB" style="background-color: #333C4E;">#F9F9FB</font><br>
+<font color="#FF7335">#FF7335</font><br>
+<strong>Estándar de layout</strong><br>
+Se decidió utilizar el framework front-end <a href="http://materializecss.com/">Materalize</a> que cuenta con una serie de componentes y diseños responsivos basado en los estándares de google en <a href="http://www.google.com/design/spec/material-design/introduction.html">material design</a>.<br>
+De forma complementaria, si surge la necesidad de utilizar algún componente que este framework no proporcione, será posible hacer uso de la herramienta <a href="http://getbootstrap.com/">Bootstrap</a>.
+
+</p>
+      <h5 class="azul-oscuro">Formularios</h5>
+      <div class="container">
+      <form>
+        <div class="row" align="center">
+          <div class="input-field col s6">
+            <input id="first_name" type="text" class="validate">
+            <label for="first_name">Primer nombre</label>
+          </div>
+          <div class="input-field col s6">
+            <input id="last_name" type="text" class="validate">
+            <label for="last_name">Segundo nombre</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input disabled value="Deshabilitado" id="disabled" type="text" class="validate">
+            <label for="disabled"></label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="password" type="password" class="validate">
+            <label for="password">Contraseña</label>
+          </div>
+        </div>
+        <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email" data-error="Error" data-success="right">Correo</label>
+        </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <textarea id="textarea1" class="materialize-textarea" length="120"></textarea>
+            <label for="textarea1">Texto</label>
+          </div>
+        </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <div class="file-field input-field">
+            <div class="btn">
+              <span>Archivo</span>
+              <input type="file">
+            </div>
+            <div class="file-path-wrapper">
+              <input id="file" class="file-path validate" type="text" placeholder="Subir archivo">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+        <p class="azul-oscuro">Radio</p>
+        <p>
+          <input name="group1" type="radio" id="t1" />
+          <label for="t1">Opción 1</label>
+        </p>
+        <p>
+          <input name="group1" type="radio" id="t2" />
+          <label for="t2">Opción 2</label>
+        </p>
+        <p>
+          <input name="group1" type="radio" id="t3"  />
+          <label for="t3">Opción 3</label>
+        </p>
+          <p>
+            <input name="group1" type="radio" id="t4" disabled="disabled" />
+            <label for="t4">Opción 4</label>
+        </p>
+      </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+        <p class="azul-oscuro">Checkbox</p>
+          <p>
+            <input type="checkbox" class="filled-in" id="test5" />
+            <label for="test5">Opción 1</label>
+          </p>
+          <p>
+            <input type="checkbox" class="filled-in" id="filled-in-box" checked="checked" />
+            <label for="filled-in-box">Opción 2</label>
+          </p>
+          <p>
+            <input type="checkbox" id="test7" class="filled-in" checked="checked" disabled="disabled" />
+            <label for="test7">Opción 3</label>
+          </p>
+            <p>
+              <input type="checkbox" id="test8" disabled="disabled" />
+              <label for="test8">Opción 4</label>
+          </p>
+      </div>
+      </div>
+      <br>
+      <p class="azul-oscuro">Switch</p>    
+          <div class="switch">
+            <label>
+              Off
+              <input type="checkbox">
+              <span class="lever"></span>
+              On
+            </label>
+          </div> <br>
+      <div class="row">
+        <div class="input-field col s12">
+          <div class="switch">
+      <p class="azul-oscuro">Rango</p>
+            <p class="range-field">
+              <input type="range" id="test5" min="0" max="100" />
+            </p>
+                </div>
+        </div>
+      </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="date" type="date" class="datepicker">
+            <label for="date">Fecha</label>
+          </div>
+        </div>
+        <div class="row">
+        <div class="input-field col s12">
+        <select>
+          <option value="" disabled selected>Seleccione una opción</option>
+          <option value="1">Opción 1</option>
+          <option value="2">Opción 2</option>
+          <option value="3">Opción 3</option>
+        </select>
+      </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+        <select disabled>
+          <option value="" disabled selected>Seleccione una opción</option>
+          <option value="1">Opción 1</option>
+          <option value="2">Opción 2</option>
+          <option value="3">Opción 3</option>
+        </select>
+      </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <button class="btn waves-effect waves-light" type="submit" name="action">Aceptar
+          </button>
+          <a class="waves-effect waves-light btn grey">Cancelar</a>
+        </div>
+      </div>
+      </form></div>
+      <h5 class="azul-oscuro">Tablas</h5>
+      <table class="striped">
+        <thead>
+          <tr>
+              <th data-field="id">Name</th>
+              <th data-field="name">Item Name</th>
+              <th data-field="price">Item Price</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Alvin</td>
+            <td>Eclair</td>
+            <td>$0.87</td>
+          </tr>
+          <tr>
+            <td>Alan</td>
+            <td>Jellybean</td>
+            <td>$3.76</td>
+          </tr>
+          <tr>
+            <td>Jonathan</td>
+            <td>Lollipop</td>
+            <td>$7.00</td>
+          </tr>
+        </tbody>
+      </table>
+      <h5 class="azul-oscuro">Paginación</h5>
+        <ul class="pagination" align="right">
+          <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+          <li class="active"><a href="#!">1</a></li>
+          <li class="waves-effect"><a href="#!">2</a></li>
+          <li class="waves-effect"><a href="#!">3</a></li>
+          <li class="waves-effect"><a href="#!">4</a></li>
+          <li class="waves-effect"><a href="#!">5</a></li>
+          <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+        </ul>
+      <h5 class="azul-oscuro">Colapsable</h5>
+      <ul class="collapsible" data-collapsible="accordion">
+        <li>
+          <div class="collapsible-header">Uno</div>
+          <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+        </li>
+        <li>
+          <div class="collapsible-header">Dos</div>
+          <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+        </li>
+        <li>
+          <div class="collapsible-header">Tres</div>
+          <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+        </li>
+      </ul>
+      <h5 class="azul-oscuro">Modal</h5>
+        <!-- Modal Trigger -->
+        <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
+
+        <!-- Modal Structure -->
+        <div id="modal1" class="modal">
+          <div class="modal-content">
+            <h4>Modal Header</h4>
+            <p>A bunch of text</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+          </div>
+        </div>     
+      </div>
+      <div id="test3" class="col s12"><h5 class="azul-oscuro">Subsección 3</h5> <p align="justify" class="azul-oscuro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum euismod placerat. Nunc et mauris sollicitudin risus dapibus accumsan. Proin convallis facilisis imperdiet. Nam sit amet nisi libero. Aliquam placerat vitae felis.</p></div>
+      <div id="test4" class="col s12"><h5 class="azul-oscuro">Subsección 4</h5> <p align="justify" class="azul-oscuro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec elementum euismod placerat. Nunc et mauris sollicitudin risus dapibus accumsan. Proin convallis facilisis imperdiet. Nam sit amet nisi libero. Aliquam placerat vitae felis.</p></div>
+    </div>
+  </div>
+  <br><br>
+  <!-- Aqui termina contenido -->
+    </div>
+    <br><br><br><br>
+
+    <footer class="page-footer footerColor">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 l8 ">
+              <h5 class="white-text">Mesa de ayuda</h5>
+                <p class="white-text text-lighten-4 ">(562) 2 999 99999 - 2 888 88888</p>
+                <p class="white-text text-lighten-4"><strong>Universidad de Santiago de Chile</strong><br/>Av. Libertador Bernardo O'Higgins 3363, Santiago, Región Metropolitana</p>
+          </div>
+          <div class="col s12 l4">
+               <div class="icon-block center">
+                  <h2>
+                    <img src="imagenes/logousach.png" style="max-width: 42.5%; max-height: 42.5%;"/>
+                  </h2>
+               </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container white-text">
+        © 2015 Copyright Text
+        </div>
+      </div>
+    </footer>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.min.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
